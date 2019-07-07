@@ -100,7 +100,7 @@ const std::time_t START_OF_2019_GMT_3 = static_cast<std::time_t>(1546290000);
 
 signed main() {
 
-    CSVReader reader("../data.csv", ";");
+    CSVReader reader("data.csv", ";");
 
     const auto data_list = reader.getData();
 
